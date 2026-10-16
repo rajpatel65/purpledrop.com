@@ -1,12 +1,14 @@
 # purpledrop.com
 
-Consulting site for Purpledrop. Offer funnel:
+Consulting site for Purpledrop. Offer:
 
-1. **Free AEO/GEO/AIO Visibility Test** (`test.html`) — lead magnet: scores how a company appears when buyers ask ChatGPT, Claude, Gemini, Perplexity. Fulfilled manually (1-page scorecard, 5 business days).
-2. **Free mini-audit, pick one** (`audit.html`) — AI spend snapshot, tool adoption snapshot, or AEO action plan.
-3. **Advanced Scan, $7,500 fixed** (`audit.html#scan`) — full two-week diagnostic with 2x-savings guarantee.
+1. **Free AI Visibility Test** (`test.html`) — lead magnet: what ChatGPT, Claude, Gemini, Perplexity say about your company. Fulfilled manually (1-page scorecard, 5 business days).
+2. **Three paid services** (`services.html`):
+   - **AI Audit Consulting — $2,500 fixed.** 4 hours with the client: evaluate what they want to use AI for, advise them. Written action plan included.
+   - **Website Update — from $1,500.** Refresh key pages, modernize, make content AI-readable. (~2 weeks)
+   - **Full Website Redesign — from $5,000.** Complete rebuild. (4–6 weeks)
 
-Pages: `index.html` (home) · `test.html` (free test) · `audit.html` (options + paid scan) · `about.html` (bio + contact).
+Pages: `index.html` (home) · `test.html` (free test) · `services.html` (services & prices) · `about.html` (bio + contact). (`audit.html` redirects to `services.html` — legacy page.)
 
 ## Stack
 
