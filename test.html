@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free AEO/GEO/AIO Visibility Test — Purpledrop</title>
+<meta name="description" content="Free test: find out how your company appears when buyers ask ChatGPT, Claude, Gemini, and Perplexity who to buy from. One-page scorecard, no pitch attached.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html" aria-label="Purpledrop home">
+      <svg class="dropmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5c3.2 4.1 6.5 7.9 6.5 11.7a6.5 6.5 0 1 1-13 0C5.5 10.4 8.8 6.6 12 2.5Z" fill="#4C1D95"/></svg>
+      purpledrop
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="test.html" aria-current="page">The free test</a>
+      <a href="audit.html">Audit options</a>
+      <a href="about.html">About</a>
+    </nav>
+    <a class="btn btn-sm" href="#request">Free visibility test</a>
+  </div>
+</header>
+
+<main>
+  <!-- INTRO -->
+  <section class="section page-hero">
+    <div class="wrap">
+      <p class="kicker reveal"><span class="rule"></span>The free test — AEO / GEO / AIO</p>
+      <h1 class="reveal" style="font-size:clamp(2.6rem,5.4vw,4.2rem);max-width:16ch;">Does AI recommend <em style="color:var(--purple);">you</em>, or your competitor?</h1>
+      <p class="section-sub reveal" style="margin-top:20px;">I run the prompts your buyers actually type — &ldquo;best [category] software for [use case]&rdquo;, &ldquo;[competitor] vs [you]&rdquo;, &ldquo;who should I shortlist for…&rdquo; — across <strong style="color:var(--ink);">ChatGPT, Claude, Gemini, and Perplexity</strong>, and score what comes back. You get the truth on one page.</p>
+    </div>
+  </section>
+
+  <!-- WHAT IT MEASURES -->
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker reveal"><span class="rule"></span>What the test measures</p>
+        <h2 class="reveal">Four scores. One page.</h2>
+      </div>
+      <div class="rows">
+        <div class="row reveal">
+          <span class="n">/01</span>
+          <h3>Mention rate</h3>
+          <p>Across a battery of buyer-style prompts, how often your company is named at all — versus being absent from the conversation entirely.</p>
+        </div>
+        <div class="row reveal">
+          <span class="n">/02</span>
+          <h3>Competitor displacement</h3>
+          <p>When you&rsquo;re not named, who is? Which competitors the AIs recommend instead of you, prompt by prompt.</p>
+        </div>
+        <div class="row reveal">
+          <span class="n">/03</span>
+          <h3>Citation sources</h3>
+          <p>What the AIs actually read to answer in your category — review sites, directories, forums, your own pages — and where you&rsquo;re missing.</p>
+        </div>
+        <div class="row reveal">
+          <span class="n">/04</span>
+          <h3>Win / loss map</h3>
+          <p>Which buying questions you win, which you lose, and the exact phrasing where competitors take the recommendation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker reveal"><span class="rule"></span>How it works</p>
+        <h2 class="reveal">Three steps. Five business days.</h2>
+      </div>
+      <div class="steps steps-3">
+        <div class="step reveal">
+          <p class="wk">Step 01</p>
+          <h3>You submit</h3>
+          <p>Company name, domain, and the 2–3 competitors you lose deals to. Two minutes in the form below.</p>
+        </div>
+        <div class="step reveal">
+          <p class="wk">Step 02</p>
+          <h3>I run the prompts</h3>
+          <p>I query the four major AI assistants the way a buyer would — same questions, fresh sessions, no leading.</p>
+        </div>
+        <div class="step reveal">
+          <p class="wk">Step 03</p>
+          <h3>You get the scorecard</h3>
+          <p>One page: your four scores, where competitors beat you, and what it&rsquo;s costing you. In your inbox within five business days.</p>
+        </div>
+      </div>
+      <p class="reveal" style="margin-top:28px;color:var(--muted);">One test per company. No pitch attached to the scorecard — if you want the fix, that&rsquo;s the <a href="audit.html" style="color:var(--purple);font-weight:600;">audit page</a>.</p>
+    </div>
+  </section>
+
+  <!-- FORM -->
+  <section id="request" class="section">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <p class="kicker"><span class="rule"></span>Request the test</p>
+        <h2>Run it on my company.</h2>
+        <p class="section-sub">I&rsquo;ll reply within two business days to confirm your test is queued — then the scorecard lands within five.</p>
+        <p class="contact-note">The scorecard is yours to keep and share internally, whatever you decide next.</p>
+      </div>
+      <!-- FORM BACKEND: not wired yet. See README before launch. -->
+      <form data-lead method="POST" action="#" class="reveal">
+        <label for="t-name">Name</label>
+        <input id="t-name" name="name" type="text" required autocomplete="name">
+        <label for="t-email">Work email</label>
+        <input id="t-email" name="email" type="email" required autocomplete="email">
+        <label for="t-company">Company</label>
+        <input id="t-company" name="company" type="text" required autocomplete="organization">
+        <label for="t-domain">Company domain</label>
+        <input id="t-domain" name="domain" type="text" required placeholder="acme.com" autocomplete="url">
+        <label for="t-comp">Top 2–3 competitors you lose deals to</label>
+        <textarea id="t-comp" name="competitors" required placeholder="e.g. Rival A, Rival B"></textarea>
+        <button class="btn btn-lg btn-block" type="submit">Request my free test</button>
+        <p class="form-note">No spam, no newsletter. Your details are only used to deliver your scorecard.</p>
+        <p class="form-status" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-inner">
+    <a class="foot-brand" href="index.html">
+      <svg class="dropmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5c3.2 4.1 6.5 7.9 6.5 11.7a6.5 6.5 0 1 1-13 0C5.5 10.4 8.8 6.6 12 2.5Z" fill="#fff"/></svg>
+      purpledrop
+    </a>
+    <p class="foot-note"><strong>Charlotte, NC</strong> — serving clients across the US<br>&copy; 2026 Purpledrop. All rights reserved.</p>
+  </div>
+</footer>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>

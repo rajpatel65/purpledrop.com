@@ -199,6 +199,29 @@ footer{background:var(--ink);color:#B9AF9F;padding:56px 0 40px}
 footer .foot-note{font-size:.88rem;line-height:1.8;text-align:right}
 footer .foot-note strong{color:#fff}
 
+/* ---------- Inner pages ---------- */
+.page-hero{padding:72px 0 8px;border-bottom:none}
+.page-hero h1{margin-bottom:0}
+/* ---------- 3-col steps ---------- */
+.steps-3{grid-template-columns:repeat(3,1fr)}
+/* ---------- Why-free box ---------- */
+.whyfree{border:2px solid var(--ink);border-radius:14px;padding:52px;background:var(--card);
+  box-shadow:8px 8px 0 var(--purple-soft);max-width:860px}
+.whyfree h2{margin-bottom:18px}
+.whyfree p{color:var(--muted);font-size:1.1rem;max-width:40em}
+.whyfree-sign{font-family:var(--font-display);font-style:italic;color:var(--ink)!important;
+  margin-top:20px!important;font-size:1.25rem!important}
+/* ---------- CTA band ---------- */
+.band{background:var(--purple);color:#fff;text-align:center;padding:88px 0;border-bottom:1px solid var(--ink)}
+.band h2{color:#fff;font-size:clamp(2rem,4vw,3rem);margin-bottom:14px}
+.band p{color:#D9C9F5;font-size:1.12rem;margin-bottom:34px}
+.btn-light{background:#fff;color:var(--purple-deep);border-color:var(--ink)}
+.btn-light:hover{background:var(--purple-soft);color:var(--purple-deep)}
+/* ---------- Dropmark + form status ---------- */
+.dropmark{width:24px;height:24px;flex-shrink:0}
+.foot-brand .dropmark{width:26px;height:26px}
+.form-status{margin-top:16px;font-weight:600;display:none;color:var(--purple)}
+
 /* ---------- Responsive ---------- */
 @media(max-width:920px){
   .nav-links{display:none}

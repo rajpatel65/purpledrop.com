@@ -130,15 +130,18 @@ const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').match
   els.forEach((el) => io.observe(el));
 })();
 
-/* ---------- Contact form scaffold ----------
-   Backend not wired yet. See the HTML comment above the form for options.
-   Remove this intercept once the form posts to a real endpoint. */
-(function initForm() {
-  const form = document.getElementById('audit-form');
-  const status = document.getElementById('form-status');
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    status.style.display = 'block';
-    status.textContent = 'Thanks — the form backend isn\u2019t connected yet. This is a draft site under review.';
+/* ---------- Lead form scaffold ----------
+   Backend not wired yet. See the README before launch.
+   Remove this intercept once forms post to a real endpoint. */
+(function initForms() {
+  document.querySelectorAll('form[data-lead]').forEach((form) => {
+    const status = form.querySelector('.form-status');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      if (status) {
+        status.style.display = 'block';
+        status.textContent = 'Thanks — the form backend isn\u2019t connected yet. This is a draft site under review.';
+      }
+    });
   });
 })();

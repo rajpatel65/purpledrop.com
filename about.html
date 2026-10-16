@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Purpledrop</title>
+<meta name="description" content="Raj Patel: 15+ years running go-to-market teams, now helping B2B companies find the waste in their AI stacks. Diagnosis before treatment, fixed prices, math or silence.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html" aria-label="Purpledrop home">
+      <svg class="dropmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5c3.2 4.1 6.5 7.9 6.5 11.7a6.5 6.5 0 1 1-13 0C5.5 10.4 8.8 6.6 12 2.5Z" fill="#4C1D95"/></svg>
+      purpledrop
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="test.html">The free test</a>
+      <a href="audit.html">Audit options</a>
+      <a href="about.html" aria-current="page">About</a>
+    </nav>
+    <a class="btn btn-sm" href="test.html">Free visibility test</a>
+  </div>
+</header>
+
+<main>
+  <!-- BIO -->
+  <section class="section page-hero">
+    <div class="wrap">
+      <div class="about-card reveal">
+        <p class="kicker"><span class="rule"></span>About</p>
+        <h2>Raj Patel</h2>
+        <p><strong>15+ years running go-to-market teams</strong> — support, sales engineering, AEs, AMs, customer success — currently leading Sales Ops / Enablement / AI Solutions at a FinTech/PropTech company.</p>
+        <p>I build the pipelines, track the spend, write the policies, and train the teams. I&rsquo;ve spent the last two years inside the exact mess this work fixes: overlapping AI contracts, misconfigured tools, reps who won&rsquo;t adopt, and leadership that won&rsquo;t decide.</p>
+        <p class="pull">&ldquo;Diagnosis before treatment. I don&rsquo;t sell scans to companies that don&rsquo;t need them.&rdquo;</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRINCIPLES -->
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker reveal"><span class="rule"></span>How I work</p>
+        <h2 class="reveal">Three rules.</h2>
+      </div>
+      <div class="rows">
+        <div class="row reveal">
+          <span class="n">/01</span>
+          <h3>Diagnosis before treatment</h3>
+          <p>The free test and mini-audit exist so neither of us guesses. If the findings don&rsquo;t justify paid work, I say so.</p>
+        </div>
+        <div class="row reveal">
+          <span class="n">/02</span>
+          <h3>Fixed prices</h3>
+          <p>Hourly billing rewards slow work. You know the cost before we start; I&rsquo;m motivated to find the waste fast.</p>
+        </div>
+        <div class="row reveal">
+          <span class="n">/03</span>
+          <h3>Math or silence</h3>
+          <p>Every recommendation ships with numbers — waste quantified in dollars, savings per move. No &ldquo;AI transformation&rdquo; adjectives.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIT -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker reveal"><span class="rule"></span>Fit check</p>
+        <h2 class="reveal">Blunt is cheaper than a bad fit.</h2>
+      </div>
+      <div class="fit-grid">
+        <div class="fit fit-yes reveal">
+          <h3>Good fit</h3>
+          <ul>
+            <li>B2B companies, roughly 50–500 people</li>
+            <li>Go-to-market runs on a CRM plus a stack of AI point tools</li>
+            <li>You suspect you&rsquo;re overpaying and under-adopting</li>
+            <li>You want a practitioner with numbers, not a slide deck</li>
+          </ul>
+        </div>
+        <div class="fit fit-no reveal">
+          <h3>Not a fit</h3>
+          <ul>
+            <li>Enterprises needing a 6-month procurement cycle to buy anything</li>
+            <li>Teams looking for custom model builds or ML engineering — I do strategy, stack, and enablement, not training neural nets</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <p class="kicker"><span class="rule"></span>Contact</p>
+        <h2>Talk to me.</h2>
+        <p class="section-sub">Questions about the test, the audit, or the scan — or just want a second opinion on your AI spend. I reply within two business days.</p>
+        <p class="contact-note">Rather start with the free test? <a href="test.html" style="color:var(--purple);font-weight:600;">Go here →</a></p>
+      </div>
+      <!-- FORM BACKEND: not wired yet. See README before launch. -->
+      <form data-lead method="POST" action="#" class="reveal">
+        <label for="c-name">Name</label>
+        <input id="c-name" name="name" type="text" required autocomplete="name">
+        <label for="c-email">Work email</label>
+        <input id="c-email" name="email" type="email" required autocomplete="email">
+        <label for="c-company">Company</label>
+        <input id="c-company" name="company" type="text" required autocomplete="organization">
+        <label for="c-msg">What&rsquo;s on your mind?</label>
+        <textarea id="c-msg" name="message" required placeholder="e.g. We're paying for three AI tools and I suspect two are shelfware…"></textarea>
+        <button class="btn btn-lg btn-block" type="submit">Send message</button>
+        <p class="form-note">No spam, no newsletter. Your details are only used to reply.</p>
+        <p class="form-status" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-inner">
+    <a class="foot-brand" href="index.html">
+      <svg class="dropmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5c3.2 4.1 6.5 7.9 6.5 11.7a6.5 6.5 0 1 1-13 0C5.5 10.4 8.8 6.6 12 2.5Z" fill="#fff"/></svg>
+      purpledrop
+    </a>
+    <p class="foot-note"><strong>Charlotte, NC</strong> — serving clients across the US<br>&copy; 2026 Purpledrop. All rights reserved.</p>
+  </div>
+</footer>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
