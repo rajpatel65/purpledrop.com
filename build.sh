@@ -5,7 +5,7 @@
 set -e
 cd "$(dirname "$0")"
 rm -rf dist && mkdir -p dist
-cp index.html test.html services.html audit.html about.html dist/
+cp index.html test.html services.html audit.html about.html terms.html privacy.html dist/
 npx -y terser main.js -c -m --module -o dist/main.js
 python3 - <<'EOF'
 import re
