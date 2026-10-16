@@ -196,6 +196,15 @@ footer{background:var(--ink);color:#B9AF9F;padding:56px 0 40px}
 .foot-brand{display:flex;align-items:center;gap:10px;font-family:var(--font-display);
   font-weight:700;font-size:1.4rem;color:#fff;text-decoration:none}
 .foot-brand .dropmark{width:26px;height:26px}
+.foot-links{display:flex;gap:22px;margin-top:18px}
+.foot-links a{color:#B9A8E8;font-size:.92rem;font-weight:500}
+.foot-links a:hover{color:#fff}
+/* ---------- Legal pages ---------- */
+.legal-body{max-width:760px}
+.legal-body>div{margin-bottom:36px}
+.legal-body h3{font-family:var(--font-display);font-size:1.45rem;margin-bottom:12px;color:var(--ink)}
+.legal-body p{color:var(--muted);margin-bottom:12px}
+.legal-body p strong{color:var(--ink)}
 footer .foot-note{font-size:.88rem;line-height:1.8;text-align:right}
 footer .foot-note strong{color:#fff}
 
@@ -219,7 +228,6 @@ footer .foot-note strong{color:#fff}
 .btn-light:hover{background:var(--purple-soft);color:var(--purple-deep)}
 /* ---------- Dropmark + form status ---------- */
 .dropmark{width:24px;height:24px;flex-shrink:0}
-.foot-brand .dropmark{width:26px;height:26px}
 .form-status{margin-top:16px;font-weight:600;display:none;color:var(--purple)}
 
 /* ---------- Responsive ---------- */
